@@ -1,1 +1,48 @@
-package.json
+{
+  "name": "react-form-lite",
+  "version": "0.1.0",
+  "description": "Lightweight React form state management and validation library",
+  "keywords": [
+    "react",
+    "forms",
+    "validation",
+    "react-hooks",
+    "form-library",
+    "frontend"
+  ],
+  "homepage": "https://github.com/lprogramming6/react-form-lite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lprogramming6/react-form-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lprogramming6/react-form-lite/issues"
+  },
+  "license": "MIT",
+  "author": "lprogramming6",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "vitest",
+    "lint": "eslint src",
+    "format": "prettier --write .",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "prettier": "^3.2.0",
+    "rollup": "^4.9.0",
+    "vitest": "^1.5.0"
+  }
+}
