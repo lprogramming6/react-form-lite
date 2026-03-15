@@ -27,8 +27,6 @@ Build the library:
 npm run build
 
 Run tests:
-
-
 npm run test
 
 
